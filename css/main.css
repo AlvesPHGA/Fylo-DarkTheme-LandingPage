@@ -1,0 +1,44 @@
+:root{
+    --bg-intro-email: hsl(217, 28%, 15%);
+    --bg-main: hsl(218, 28%, 13%);
+    --bg-footer: hsl(216, 53%, 9%);
+    --bg-testmonials: hsl(219, 30%, 18%);
+
+    --cyan-inside-callToAction-grad: hsl(176, 68%, 64%);
+    --blue-inside-callToAction-grad: hsl(198, 60%, 50%);
+    --light-red-error: hsl(0, 100%, 63%);
+
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0.875;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#boxHeader, #boxMain{
+    background: var(--bg-main);
+}
+
+
+
+#boxNav{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#boxFooter{
+    background: var(--bg-footer);
+}
