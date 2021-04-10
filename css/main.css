@@ -1,8 +1,8 @@
 :root{
     --bg-intro-email: hsl(217, 28%, 15%);
-    --bg-main: hsl(218, 28%, 13%);
+    --bg-main: hsl(218, 28%, 18%);
     --bg-footer: hsl(216, 53%, 9%);
-    --bg-testmonials: hsl(219, 30%, 18%);
+    --bg-testmonials: hsl(219, 30%, 22%);
 
     --cyan-inside-callToAction-grad: hsl(176, 68%, 64%);
     --blue-inside-callToAction-grad: hsl(198, 60%, 50%);
@@ -34,11 +34,28 @@ a{
 
 
 
-#boxNav{
+#boxNav, .format-componets header{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+}
+
+.format-componets header{
+    font-weight: 700;
+}
+
+.format-componets button{
+    background: var(--blue-inside-callToAction-grad);
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.format-componets button:hover{
+    background: var(--cyan-inside-callToAction-grad);
 }
 
 #boxFooter{
     background: var(--bg-footer);
 }
+
